@@ -15,7 +15,7 @@ class wordpress::cli {
     force   => true,
   }
   
-  exec 'add-wp-cli-git-command' :
+  exec { 'add-wp-cli-git-command' :
     command => 'sudo composer config repositories.wp-cli composer http://wp-cli.org/package-index/ && sudo composer require mattes/wp-cli-git-command=dev-master',
     cwd     => '/usr/share/wp-cli',
   }
