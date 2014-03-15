@@ -1,0 +1,7 @@
+name 'zsim0n-wordpress'
+version '0.0.1'
+source 'git://github.com/zsim0n/puppet-wordpress.git'
+author 'zsim0n'
+summary 'Wordpress module with wp-cli'
+description 'Wordpress module'
+project_page 'http://github.com/zsim0n/puppet-wordpress'
